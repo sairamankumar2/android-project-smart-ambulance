@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/border">
+
+    <Button
+        android:id="@id/button_police"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_fire"
+        android:textSize="25pt"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDarkGreen"/>
+    <Button
+        android:id="@id/button_fire"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_police"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="24pt"
+        android:textColor="@color/colorText"
+        android:background="@color/colorPrimaryDarkBlue"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="10pt"
+        android:onClick="back"/>
+
+
+</LinearLayout>

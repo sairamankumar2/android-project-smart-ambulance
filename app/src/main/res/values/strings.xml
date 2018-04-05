@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">108 Emergency</string>
+    <string name="other_help">Other Help</string>
+    <string name="button_medical"><p> <b>Medical Emergency</b></p></string>
+    <string name="button_accident"><p>Accident Emergency</p></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="button_police">Police assistance</string>
+    <string name="button_fire">Fire  assistance</string>
+    <string name="back">Back</string>
+</resources>
